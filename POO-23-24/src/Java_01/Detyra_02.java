@@ -13,7 +13,7 @@ public class Detyra_02 {
             System.out.print(numri + " ");
         }
     }
-    
+
     static int[] shtoAnetarNeVarg(int[] vargu, int anetari, int index){
         int[] varguIRi = new int[vargu.length + 1];
         int j = 0;
