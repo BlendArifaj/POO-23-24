@@ -1,4 +1,4 @@
-package Java_01;
+package Java_01.group_01;
 
 public class Detyra_01 {
 

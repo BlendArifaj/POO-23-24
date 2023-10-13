@@ -1,4 +1,4 @@
-package Java_01;
+package Java_01.group_01;
 
 public class Detyra_02 {
 // Eshte i deklaruar vargu me anetaret [1,2,3,4]
