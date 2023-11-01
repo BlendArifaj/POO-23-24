@@ -1,0 +1,21 @@
+String methods:
++length(): int
++charAt(index: int): char
++concat(s1: String): String
++substring(beginIndex: int): String
++substring(beginIndex: int, endIndex: int): String
++toLowerCase(): String
++toUpperCase(): String
++trim(): String
++replace(oldChar: char, newChar: char): String
++replaceFirst(oldString: String, newString: String): String
++replaceAll(oldString: String, newString: String): String
++split(delimiter: String): String[]
++indexOf(ch: char): int
++indexOf(ch: char, fromIndex:int): int
++indexOf(s: String): int
++indexOf(s: String, fromIndex: int): int
++lastIndexOf(ch: int): int
++lastIndexOf(ch: int, fromIndex: int): int
++lastIndexOf(s: String): int
++lastIndexOf(s: String, fromIndex: int): int

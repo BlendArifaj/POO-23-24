@@ -8,6 +8,8 @@ public class KlasatDheObjektet {
 
         studentA.shtypTeDhenat();
         studentB.shtypTeDhenat();
+
+
     }
 }
 
