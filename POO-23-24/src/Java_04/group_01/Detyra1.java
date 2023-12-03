@@ -16,11 +16,15 @@ public class Detyra1 {
     public static void main(String[] args){
         Loja.fillo();
     }
+
+
 }
 
 
 class Loja{
     static int numriMundesive = 2 + (int)(Math.random() * 5);
+
+
 
     static void fillo(){
         int numri = (int) (Math.random() * 100);
