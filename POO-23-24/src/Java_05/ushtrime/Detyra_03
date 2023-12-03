@@ -1,0 +1,34 @@
+-   Nese kemi nevoje te punojme me vargje (arrays) atehere e krijojme nje
+    klase statike me metodat perkatese
+Klasa "Banka":
+Veçoritë:
+    Emri (tipi String)
+    Lista e klientëve (tipi varg i Klienti)
+Sjellet:
+    printoTeDhenat() - përmbledh dhe printon të dhënat për bankën
+    shtoKlient(...) - shton një klient në listën e klientëve të bankës
+    fshiKlient(...) - fshin një klient nga lista e klientëve të bankës
+
+Klasa "Klienti":
+Veçoritë:
+    ID (tipi int)
+    Emri (tipi String)
+    Adresa (tipi String)
+    Lista e llogarive (tipi varg i LlogariBankare)
+Sjellet:
+    printoTeDhenat() - përmbledh dhe printon të dhënat për klientin
+    shtoLlogari(...) - shton një llogari bankare në listën e llogarive të klientit
+    llogaritTotalin() - kthen shumën e gjithë balancave në të gjitha llogaritë e klientit
+
+Klasa "LlogariBankare":
+Veçoritë:
+    Id (tipi int)
+    Pronari (tipi Klienti)
+    Bilanci (tipi float)
+Sjellet:
+    printoTeDhenat() - përmbledh dhe printon të dhënat për llogarinë bankare
+
+Main:
+Në programin kryesor main, krijohet një instance e klases "Banka" dhe shtohen klientë me llogari bankare.
+Pastaj, përdoren metodat për të menaxhuar dhe shfaqur informacionin për klientët dhe llogaritë e tyre
+në bankë.

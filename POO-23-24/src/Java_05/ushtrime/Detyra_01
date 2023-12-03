@@ -1,0 +1,37 @@
+Të krijohet struktura e programit bazuar në përshkrimin e klasave vijuese. Për punën me vargje
+(array), te krijohet klasa statike me metodat përkatëse.
+
+Klasa "Fakulteti" krijon anëtarët sipas kërkesave në vazhdim:
+    Veçoritë:
+        - Id (tipi int)
+        - Emri (tipi String)
+        - Drejtimet (tipi varg i Drejtimi)
+        - Stafi Akademik (tipi varg i StafiAkademik)
+    Sjellet:
+        - printoTeDhenat() - përmbledh dhe printon të dhënat e fakultetit
+        - printoStafinAkademik() - përmbledh dhe printon të dhënat e stafit akademik
+        - printoDrejtimet() - përmbledh dhe printon të dhënat e drejtimeve
+        - shtoDrejtimTeRi(...) - shton një drejtim të ri në fakultet
+        - shtoStafinAkademik(...) - shton një staf akademik të ri në fakultet
+        - printoStafinAkademikSipasTitullit(String titulli) - përmbledh dhe printon të dhënat e stafit
+                                                              akademik qe e kanë një titull të caktuar.
+Klasa "Drejtimi":
+    Veçoritë:
+        - Id
+        - Emri
+    Sjellet:
+        - printoTeDhenat() - përmbledh dhe printon të dhënat e drejtimit
+
+Klasa "StafiAkademik":
+    Veçoritë:
+        - Id
+        - Emri
+        - Mbiemri
+        - Titulli (Prof., Ass., Prof. Ass., Prof. Dr.)
+        - Drejtimi (tipi Drejtimi)
+    Sjellet:
+        - printoTeDhenat() - përmbledh dhe printon të dhënat e stafit akademik.
+
+ Main:
+ Ne programin kryesor main te krijohet nje instance e klases Fakulteti, se bashku
+ me disa instanca te klasave perkatese dhe te perdoren metodat e deklaruara
