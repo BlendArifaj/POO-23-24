@@ -1,0 +1,18 @@
+Krijoni një program në Java që përfaqëson një sistemi bankar:
+    -   Ju duhet të krijoni klasën 'Llogaria' (Account) me funksione për:
+        -   depozitim (deposit) dhe
+        -   tërheqje (withdraw) të parave.
+
+    -   Llogaria duhet të ketë një bilanc fillestar dhe duhet të lejojë depozitimin e parave.
+    -   Nëse shuma për tërheqjen është më e madhe se balanca aktuale, programi duhet të shkaktoj
+        një gabim të personalizuar, 'InsufficientFundsException'.
+
+    -   Klasa 'InsufficientFundsException' duhet të jetë një gabim i dedikuar për rastin kur për tërheqjen kërkesa
+        është më e madhe se balanca. Ky gabim (exception) duhet të përmbajë një mesazh informativ që tregon arsyen
+        pse është shkaktuar.
+
+Në klasën 'Main', shfaqni funksionimin e sistemit bankar duke demonstruar:
+    -   Depozitimin e një shume parash në llogari.
+    -   Tentimin për tërheqjen e një shume të madhe se balanca.
+    -   Trajtimin e 'InsufficientFundsException' për të kapur dhe shfaqur mesazhin për mungesë të fondeve.
+

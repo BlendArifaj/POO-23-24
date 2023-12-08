@@ -1,0 +1,5 @@
+Krijohet një tip gabimi i personalizuar (CustomException), kështu që në momentin që ky gabim shkaktohet,
+në ekran do të shfaqet mesazhi: "Një gabim i papritur ndodhi në aplikacion. Ju lutemi kontrolloni regjistrat
+për detaje më të mëdha.
+
+Në programin kryesor 'Main', te  shkaktohet dhe trajtohet gabimi i personalizuar.

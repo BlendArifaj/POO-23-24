@@ -11,6 +11,7 @@ public class Detyra01 {
         Provimi provimi5 = new ProvimPerfunduar("Lenda 5", 2, 45);
 
         Studenti studenti = Studenti.getInstance(1, "Filan Fisteku");
+
         studenti.shtoProvim(provimi1);
         studenti.shtoProvim(provimi2);
         studenti.shtoProvim(provimi3);
