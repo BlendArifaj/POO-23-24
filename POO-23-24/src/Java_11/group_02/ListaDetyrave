@@ -1,0 +1,22 @@
+Të krijohet një program në gjuhën programuese Java, i cili mundëson menaxhimin e transfereve bankare.
+Kërkesat e programit:
+- Klasa Abstrakte Banka:
+    Do të mbajë funksionalitetin bazë të një banke, por nuk do të implementojë të gjitha metodat.
+    Metodat për hapjen e llogarisë dhe transferimin e parave do të deklarohen si metoda abstrakte këtu.
+    Gjithashtu, duhet të përmbajë një listë të llogarive bankare (anëtar privat),
+        me informacionet: id, perdoruesi (string) dhe shuma (double).
+- Klasa BankaKomerciale (implementon Klasën Abstrakte Banka):
+    Do të mundësojë krijimin e llogarive të reja bankare.
+    Transferet bankare në bankën komerciale duhet të ruhen në fajllin 'transferet.txt'
+        në formatin: komerciale-<derguesi>-<pranuesi>-shuma.
+- Klasa BankaShteterore (implementon Klasën Abstrakte Banka):
+    Nuk duhet të mundësojë krijimin e llogarive të reja bankare.
+    Transferet bankare në bankën shteterore duhet të ruhen në fajllin 'transferet.txt'
+        në formatin: shteterore-<derguesi>-<pranuesi>-shuma.
+- Nderfaqja TransferimiParave:
+    Është një ndërfaqe e njëjtë që do të përdoret nga të dy llojet e bankave për të kryer transferime.
+- Transferi i fondeve duhet të mundësohet nga LlogariaA në LlogarineB, duke përditësuar pastaj shumat e mbetura.
+    - Nëse llogaria e caktuar nuk ka fonde për të përmbushur transferin, atëherë transferimi duhet të dështojë.
+- Shtese:
+    Te krijohet funksioni kerkoTransferet(llogaria) - qe i lexon te gjitha transferet per nje llogari te caktuar
+    nga fajlli.
