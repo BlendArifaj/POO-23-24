@@ -63,6 +63,13 @@ class Studenti {
             Scanner scanner = new Scanner(file);
             while(scanner.hasNextLine()){
                 // 1;Filan Fisteku;7.6 => ['1', 'Filan Fisteku', '7.6']
+                //"komerciale-123-321-500"
+//                String[] vars = scanner.nextLine().split("-");
+//                vars[1];
+//                vars[2];
+//                vars[3]
+//
+
                 String studentText = scanner.nextLine();
                 studentet.add(Studenti.fromText(studentText));
             }
